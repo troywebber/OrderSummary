@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700;800;900&display=swap');  
+
+  body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/background.png);
+  }
+
+h1 {
+    text-align: center;
+    padding-top: 0.5em;
+    font-weight: 900;
+    font-size: 1.1em;
+    color: hsl(223, 47%, 23%);
+}
+
+
+p {
+    font-size: 0.7em;
+    text-align: center;
+    color: #aaa 	;
+}
+
+.container { 
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    width: 15em;
+    border-radius: 5%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 1px 6px 8px -5px rgba(0,0,0,0.51); 
+    box-shadow: 1px 6px 8px -5px rgba(0,0,0,0.51);
+
+}
+
+.containerImage {
+    position: relative;
+    background-image: url(images/illustration-hero.svg);
+    width: 100%;
+    background-size: cover;
+    height: 9em;
+    border-radius: 5% 5% 0 0;
+    background-position: center;
+}
+
+.containerText{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.annualPlan {
+    display: flex;
+    background-color: #f8f9fe;
+    justify-content: space-around;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 0.3em;
+    align-items: center;
+}
+
+.musicIcon {
+    background: url(images/icon-music.svg);
+    height: 1.8em;
+    background-size: cover;
+    width: 1.8em;
+}
+
+
+.planPrice h3 {
+    font-size: 0.5em;
+    font-weight: 800;
+}
+
+.planPrice p {
+    margin-top: 0;
+    font-size: 0.6em;
+}
+
+.change a {
+    font-size: 0.5em;
+}
+
+.paymentButton {
+    width: 12em;
+    background-color: #382ae1;
+    margin: 1em auto;
+    text-align: center;
+    border-radius: 0.2em;
+    padding: 0.2em;
+    -webkit-box-shadow: 1px 6px 8px -5px rgba(0,0,0,0.51); 
+    box-shadow: 1px 6px 8px -5px rgba(0,0,0,0.51);
+}
+
+.paymentButton a {
+    color: white;
+    font-size: 0.7em;
+    line-height: 2em;
+    text-decoration: none;
+}
+
+.cancelOrder {
+    width: 100%;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.cancelBtn {
+    text-align: center;
+    font-size: 0.6em;
+    text-decoration: none;
+    color: hsl(228deg 45% 44%);}
